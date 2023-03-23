@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-screen h-screen flex flex-col items-cetner justify-center">
+
+        <div class="flex items-center justify-center relative">
+            <div class="z-0 flex flex-wrap h-48 w-48 
+            text-white text-center text-6xl cursor-pointer">
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="1" value="1"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="2" value="2"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="3" value="3"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="4" value="4"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="5" value="5"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="6" value="6"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="7" value="7"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="8" value="8"></div>
+                <div class="h-16 w-16 border-2 rounded-lg border-white bg-black" id="9" value="9"></div>
+            </div>
+
+            <div id="tooltip" class="hidden z-10 flex flex-col items-center justify-center absolute h-screen w-screen backdrop-blur-sm bg-white/30">
+
+                <div class="flex flex-col items-center justify-center bg-emerald-600 h-32 w-32 rounded-lg">
+                    <div id="words" class="text-white mb-2"></div>
+                    <button id="reset" type="button" class="text-white bg-indigo-500 p-1 rounded-lg cursor-pointer">Reset</button>
+                </div>
+
+            </div>
+
+        </div>
+    
+    </div>
+    
+
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
